@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Contact  @IWB PTY LTD</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo">IWB PTY LTD</a>
+      </div>
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true">
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="container page-title">
+      <h1>Contact Us</h1>
+      <p class="lead">Get in touch — we'd love to hear from you about collections, partnerships, or volunteering.</p>
+    </section>
+
+    <section class="container contact-grid">
+      <div class="contact-form-wrapper">
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <aside class="company-info">
+        <h2>Company Info</h2>
+        <p><strong>Address:</strong><br> 123 Greenway Drive, Green City, Country</p>
+        <p><strong>Phone:</strong><br> 62842939/59478718</p>
+        <p><strong>Email:</strong><br> hello@iwb-pty.example</p>
+        <h3>Drop-off Points</h3>
+        <ul>
+          <li>Maseru — Along Moshoeshoe Road </li>
+          <li>Lesotho Recycling Hub — Industry Rd</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2023 IWB PTY LTD. All rights reserved. &nbsp;|&nbsp; <a href="contact.html">Contact Us</a></p>
+    </div>
+  </footer>
+</body>
+</html>
